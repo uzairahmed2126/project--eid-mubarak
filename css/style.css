@@ -129,6 +129,7 @@ h1 {
   display: flex;
   text-decoration: underline;
   color: white;
+  visibility: hidden;
 }
 @media screen and (max-width: 600px) {
   #main-container {
@@ -165,5 +166,8 @@ h1 {
     justify-content: space-between;
     color: #000;
     z-index: 1;
+  }
+  #hover-me {
+    visibility: visible;
   }
 }
