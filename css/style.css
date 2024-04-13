@@ -18,6 +18,7 @@ body {
   text-transform: uppercase;
   margin-top: 10%;
   color: aliceblue;
+  /* pointer-events: none; */
 }
 p {
   justify-content: space-around;
@@ -108,10 +109,13 @@ p {
     #00a859 66.66%
   );
   position: relative;
+  cursor: pointer;
+  
 }
 h1 {
   font-size: 50px;
   justify-content: space-between;
+  /* pointer-events: all; */
 }
 
 .star {
