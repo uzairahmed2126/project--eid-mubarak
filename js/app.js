@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     h1El.style.animation = `anim 2.${i}s ease-in-out alternate`;
     if (i > 3) {
       palestine.slice(i, eid.length);
-      h1El.style.color = "#aaaaee";
+      h1El.style.color = "#eeae10";
     }
     palestineFlag.append(h1El);
   }
